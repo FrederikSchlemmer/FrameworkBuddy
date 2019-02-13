@@ -1,0 +1,1066 @@
+{
+  "bewertungskriterien": [
+    {
+      "schluessel": "SF-1",
+      "praxisRelevanz": "5",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "-1"
+        }
+      ]
+    },
+    {
+      "schluessel": "SF-2",
+      "praxisRelevanz": "4",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "-1"
+        }
+      ]
+    },
+    {
+      "schluessel": "SF-3",
+      "praxisRelevanz": "7",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "0"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "0"
+        }
+      ]
+    },
+    {
+      "schluessel": "SF-4",
+      "praxisRelevanz": "7",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "-1"
+        }
+      ]
+    },
+    {
+      "schluessel": "SF-5",
+      "praxisRelevanz": "6",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "0"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "0"
+        }
+      ]
+    },
+    {
+      "schluessel": "SF-6",
+      "praxisRelevanz": "6",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "-1"
+        }
+      ]
+    },
+    {
+      "schluessel": "SF-7",
+      "praxisRelevanz": "7",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "0"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "-1"
+        }
+      ]
+    },
+    {
+      "schluessel": "SF-8",
+      "praxisRelevanz": "5",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "0"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "-1"
+        }
+      ]
+    },
+    {
+      "schluessel": "SF-9",
+      "praxisRelevanz": "6",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "MF-2",
+      "praxisRelevanz": "7",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "MF-3",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "MF-4",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "MF-5",
+      "praxisRelevanz": "6",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PF-1",
+      "praxisRelevanz": "3",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PF-2",
+      "praxisRelevanz": "7",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "0"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PF-3",
+      "praxisRelevanz": "5",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PF-4",
+      "praxisRelevanz": "6",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PF-5",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "0"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "-1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PF-6",
+      "praxisRelevanz": "3",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PF-7",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "-1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PF-8",
+      "praxisRelevanz": "5",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "TF-1",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "TF-2",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "TF-3",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "TF-4",
+      "praxisRelevanz": "7",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "TF-5",
+      "praxisRelevanz": "5",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "-1"
+        }
+      ]
+    },
+    {
+      "schluessel": "TF-6",
+      "praxisRelevanz": "6",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "TF-7",
+      "praxisRelevanz": "7",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "WZF-1",
+      "praxisRelevanz": "5",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "WZF-2",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "0"
+        }
+      ]
+    },
+    {
+      "schluessel": "WZF-3",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "0"
+        }
+      ]
+    },
+    {
+      "schluessel": "WZF-4",
+      "praxisRelevanz": "6",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "WZF-5",
+      "praxisRelevanz": "4",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "0"
+        },
+        {
+          "framework": "React",
+          "bewertung": "0"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "0"
+        }
+      ]
+    },
+    {
+      "schluessel": "PKF-1",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "0"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "0"
+        }
+      ]
+    },
+    {
+      "schluessel": "PKF-2",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PKF-3",
+      "praxisRelevanz": "7",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PKF-4",
+      "praxisRelevanz": "5",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PKF-5",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PKF-6",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "0"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PKF-7",
+      "praxisRelevanz": "5",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PKHF-1",
+      "praxisRelevanz": "4",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "0"
+        }
+      ]
+    },
+    {
+      "schluessel": "PKHF-2",
+      "praxisRelevanz": "2",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "0"
+        }
+      ]
+    },
+    {
+      "schluessel": "PKHF-3",
+      "praxisRelevanz": "5",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "0"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "-1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PKHF-4",
+      "praxisRelevanz": "5",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "0"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "-1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PKHF-7",
+      "praxisRelevanz": "4",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "0"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "-1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PKHF-8",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "PKHF-9",
+      "praxisRelevanz": "7",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "0"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "0"
+        }
+      ]
+    },
+    {
+      "schluessel": "EBF-1",
+      "praxisRelevanz": "9",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "EBF-2",
+      "praxisRelevanz": "5",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "0"
+        }
+      ]
+    },
+    {
+      "schluessel": "EBF-3",
+      "praxisRelevanz": "7",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "-1"
+        }
+      ]
+    },
+    {
+      "schluessel": "EBF-4",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "0"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "EBF-5",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "0"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "0"
+        }
+      ]
+    },
+    {
+      "schluessel": "EBF-6",
+      "praxisRelevanz": "7",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "0"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "EBF-7",
+      "praxisRelevanz": "7",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "EBF-8",
+      "praxisRelevanz": "7",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "LFF-1",
+      "praxisRelevanz": "7",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "0"
+        }
+      ]
+    },
+    {
+      "schluessel": "LFF-2",
+      "praxisRelevanz": "8",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "0"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "1"
+        }
+      ]
+    },
+    {
+      "schluessel": "LFF-3",
+      "praxisRelevanz": "7",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "-1"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "-1"
+        }
+      ]
+    },
+    {
+      "schluessel": "LFF-4",
+      "praxisRelevanz": "6",
+      "bewertungen": [
+        {
+          "framework": "Angular",
+          "bewertung": "1"
+        },
+        {
+          "framework": "React",
+          "bewertung": "0"
+        },
+        {
+          "framework": "Vue",
+          "bewertung": "0"
+        }
+      ]
+    }
+  ]
+}

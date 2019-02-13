@@ -1,0 +1,38 @@
+<div fxLayout="column" fxLayoutAlign="center center" class="mat-typography" style="min-height: 50em;">
+  <div *ngIf="!contentLoaded" fxLayout="column" fxLayoutAlign="space-around center" class="mat-typography" style="margin-top: 10em">
+    <mat-spinner></mat-spinner>
+    <h2 class="mat-h2" style="margin-top: 2em"> Einen Moment bitte. Aktuell wird das Ergebnis berechnet...</h2>
+  </div>
+
+  <div *ngIf="contentLoaded" fxLayout="column" fxLayoutAlign="center center" class="mat-typography">
+    <div *ngIf="calculatedResult !== undefined">
+      <h1 class="mat-h1" style="margin-bottom: 4em; text-align: center"> Das ist der Ratschlag von deinem Framework
+        Buddy:</h1>
+      <div *ngIf="calculatedResult.angular > 0 || calculatedResult.react > 0 || calculatedResult.vue > 0">
+        <div *ngIf="calculatedResult.angular > calculatedResult.react && calculatedResult.angular > calculatedResult.vue">
+          <mat-icon svgIcon="angular"></mat-icon>
+          <h1 class="mat-h1" style="font-size: 5em; text-align: center"> Angular</h1>
+        </div>
+        <div *ngIf="calculatedResult.react > calculatedResult.angular && calculatedResult.react > calculatedResult.vue">
+          <mat-icon svgIcon="react"></mat-icon>
+          <h1 class="mat-h1" style="font-size: 5em; text-align: center"> React</h1>
+        </div>
+        <div *ngIf="calculatedResult.vue > calculatedResult.react && calculatedResult.vue > calculatedResult.angular">
+          <mat-icon svgIcon="vue"></mat-icon>
+          <h1 class="mat-h1" style="font-size: 5em; text-align: center"> Vue.js</h1>
+        </div>
+      </div>
+      <div *ngIf="calculatedResult.angular < 0 && calculatedResult.react < 0 && calculatedResult.vue < 0">
+        <h1 class="mat-h1" style="font-size: 5em; text-align: center"> Angular, React und Vue.js</h1>
+      </div>
+    </div>
+
+    <div *ngIf="calculatedResult == undefined" fxLayout="column" fxLayoutAlign="center center">
+      <mat-icon svgIcon="error"></mat-icon>
+      <h2 class="mat-h2" style="margin-top: 2em"> Wie es scheint ist hier etwas falsch abgelaufen. Hast du den
+        Fragebogen überhaupt ausgefüllt?</h2>
+      <button mat-raised-button color="primary" routerLink="/form">Zurück zum Fragebogen!</button>
+    </div>
+  </div>
+
+</div>

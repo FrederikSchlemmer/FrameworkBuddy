@@ -1,0 +1,294 @@
+{
+  "themengebiete": [
+    {
+      "name": "Sicherheit",
+      "beschreibung": "Durch die Zunahme der möglichen Funktionalitäten einer Internetanwendung ist die Anzahl der Angriffe auf Anwendungen im Internet ebenfalls gestiegen. Es werden vertrauliche Informationen wie Benutzerdaten und Zahlungsinformationen in einer Datenbank durch die Anwendungen gespeichert. Dadurch ist es notwendig eine Absicherung gegen allgemeine Problemstellungen bereitzustellen.",
+      "leitfragen": [
+        {
+          "frage": "Wie relevant ist eine Sicherheitspolitik für die Behandlung von Sicherheitslücken?",
+          "schluessel": "SF-1"
+        },
+        {
+          "frage": "Wie relevant ist eine Promotion für die Fehlerfindung?",
+          "schluessel": "SF-2"
+        },
+        {
+          "frage": "Wie relevant ist eine Unterstützung für 'Static Typing'?",
+          "schluessel": "SF-3"
+        },
+        {
+          "frage": "Wie relevant sind Maßnahmen gegen Injections?",
+          "schluessel": "SF-4"
+        },
+        {
+          "frage": "Wie relevant sind Möglichkeiten zur Implementierung von Authentifizierungen?",
+          "schluessel": "SF-5"
+        },
+        {
+          "frage": "Wie relevant sind standartmäßigen sicherheitsrelevanten Konfigurationen?",
+          "schluessel": "SF-6"
+        },
+        {
+          "frage": "Wie relevant sind Maßnahmen gegen Cross Site Scripting (XSS)?",
+          "schluessel": "SF-7"
+        },
+        {
+          "frage": "Wie relevant sind Maßnahmen gegen Cross Site Request Forgery (CSRF)?",
+          "schluessel": "SF-8"
+        },
+        {
+          "frage": "Wie relevant ist die Vermeidung von Komponenten mit bekannten Schwachstellen?",
+          "schluessel": "SF-9"
+        }
+      ]
+    },
+    {
+      "name": "Modularität",
+      "beschreibung": "Modularität ist durch den Anstieg der Funktionalitäten ein wichtiger Aspekt bei den heutigen Internetanwendungen. Es wird ermöglicht die komplette Anwendung in kleinere isolierte Komponenten zu unterteilen, wodurch die Komponenten außerhalb der ursprünglichen Anwendung verwendet werden können. Durch die strikte Einhaltung eines Entwurfsmusters wird die Instandhaltung einer Anwendung begünstigt und ein Austausch bzw. eine Weiterentwicklung von Komponenten ist unkompliziert möglich.",
+      "leitfragen": [
+        {
+          "frage": "Wie relevant ist ein Entwurfsmuster zur Trennung von Schichten und Komponenten?",
+          "schluessel": "MF-2"
+        },
+        {
+          "frage": "Wie relevant ist ein komponentenbasierter Ansatz zur Entwicklung?",
+          "schluessel": "MF-3"
+        },
+        {
+          "frage": "Wie relevant ist die Flexibilität des Frameworks?",
+          "schluessel": "MF-4"
+        },
+        {
+          "frage": "Wie relevant ist die Trennung von JavaScript/CSS/HTML?",
+          "schluessel": "MF-5"
+        }
+      ]
+    },
+    {
+      "name": "Performance",
+      "beschreibung": "Die Performance einer SPA-Anwendung ist entscheidend dafür, ob ein Nutzer eine positive User Experience hat. Bei einer längeren Ladezeit tendieren Nutzer dazu eine Anwendung vor Fertigstellung zu verlassen. In diesem Bereich können Sekunden, teils Millisekunden ausschlaggebend sein für die User Experience. Des Weiteren können Caching-Möglichkeiten die Anwendung nicht nur performanter machen, sondern auch den Transfer zwischen Server und Client mindern.",
+      "leitfragen": [
+        {
+          "frage": "Wie relevant sind Testergebnisse mit Chrome Lighthouse Audit?",
+          "schluessel": "PF-1"
+        },
+        {
+          "frage": "Wie relevant ist die Größe der zu transferierenden Datei zwischen Server und Client ?",
+          "schluessel": "PF-2"
+        },
+        {
+          "frage": "Wie relevant sind automatisierte Datentransferreduzierungen?",
+          "schluessel": "PF-3"
+        },
+        {
+          "frage": "Wie relevant sind Caching-Möglichkeiten durch den Entwickler?",
+          "schluessel": "PF-4"
+        },
+        {
+          "frage": "Wie relevant ist die Performance für Aktionen während der Laufzeit?",
+          "schluessel": "PF-5"
+        },
+        {
+          "frage": "Wie relevant ist die Performance bei der Lighthouse Mobile Simulation?",
+          "schluessel": "PF-6"
+        },
+        {
+          "frage": "Wie relevant ist die Unterstützung von Lazy Loading?",
+          "schluessel": "PF-7"
+        },
+        {
+          "frage": "Wie relevant ist der Einsatz von einem Ahead-of-time-Compiler?",
+          "schluessel": "PF-8"
+        }
+      ]
+    },
+    {
+      "name": "Testbarkeit",
+      "beschreibung": "Die Möglichkeit den Programmcode auf seine Richtigkeit mittels verschiedenen Tests zu überprüfen, ist ein wichtiges Merkmal für qualitativ hochwertige Anwendungen. Mithilfe von Testmöglichkeiten wie Unit-, Integration- und Funktionstests kann garantiert werden, dass vorgenommene Änderung nicht die Funktionsweise der Anwendung stören. Des Weiteren hat die testbasierte Entwicklung einen hohen Stellenwert heutzutage.",
+      "leitfragen": [
+        {
+          "frage": "Wie relevant sind Testmöglichkeiten seitens des Frameworks?",
+          "schluessel": "TF-1"
+        },
+        {
+          "frage": "Wie relevant ist die Möglichkeit für Unit Tests?",
+          "schluessel": "TF-2"
+        },
+        {
+          "frage": "Wie relevant ist die Möglichkeit für Integration Tests?",
+          "schluessel": "TF-3"
+        },
+        {
+          "frage": "Wie relevant ist die Möglichkeit für Funktionstests?",
+          "schluessel": "TF-4"
+        },
+        {
+          "frage": "Wie relevant ist die Möglichkeit für Performance-Tests?",
+          "schluessel": "TF-5"
+        },
+        {
+          "frage": "Wie relevant ist die Unterstützung von Stub/Mock-Objekte in Tests?",
+          "schluessel": "TF-6"
+        },
+        {
+          "frage": "Wie relevant ist die Unterstützung von HTTP-Anfragen in Tests?",
+          "schluessel": "TF-7"
+        }
+      ]
+    },
+    {
+      "name": "Wartbarkeit und Zukunftssicherheit",
+      "beschreibung": "Eine Anwendung entwickelt sich nach dem ersten Release im Laufe der Zeit weiter. Die Wartbarkeit spielt für die Weiterentwicklung eine wichtige Rolle, damit weitere Entwickler ins Team einsteigen und neue Funktionalitäten am Projekt entstehen können. Die Zukunftsfähigkeit der Anwendung soll durch eine einfache Erweiterbarkeit dieser, sowie einer stetigen Weiterentwicklung des verwendeten Frameworks unterstützt werden.",
+      "leitfragen": [
+        {
+          "frage": "Wie relevant ist ein Code Style seitens des Frameworks?",
+          "schluessel": "WZF-1"
+        },
+        {
+          "frage": "Wie relevant ist die  Verbreitung des Frameworks unter Entwicklern?",
+          "schluessel": "WZF-2"
+        },
+        {
+          "frage": "Wie relevant ist die Absicherung der weiteren Entwicklung des Frameworks?",
+          "schluessel": "WZF-3"
+        },
+        {
+          "frage": "Wie relevant ist die Nutzung des Frameworks von namenhaften Unternehmen?",
+          "schluessel": "WZF-4"
+        },
+        {
+          "frage": "Wie relevant ist die notwendige Menge an Code-Zeilen für Anwendungen?",
+          "schluessel": "WZF-5"
+        }
+      ]
+    },
+    {
+      "name": "Plattformunabhängigkeit und Kompatibilität",
+      "beschreibung": "Die heutige Gerätevielfalt zur Anzeige von Internetanwendungen benötigt eine erhöhte Kompatibilität. Die Anwendung muss auf allen gängigen Browser, sowie allen mobilen Geräten, das gleiche Ergebnis hervorbringen. Teilweise bieten Frameworks die Möglichkeit die Anwendungen auf dem Desktop zu verwenden.",
+      "leitfragen": [
+        {
+          "frage": "Wie relevant ist der Funkiontest von Browsern für jedes Release des Frameworks?",
+          "schluessel": "PKF-1"
+        },
+        {
+          "frage": "Wie relevant ist die  Unterstützung von aktuellen Browserversionen?",
+          "schluessel": "PKF-2"
+        },
+        {
+          "frage": "Wie relevant ist die  Unterstützung von früheren Browserversionen?",
+          "schluessel": "PKF-3"
+        },
+        {
+          "frage": "Wie relevant ist die Version von JavaScript in der das Framework entwickelt?",
+          "schluessel": "PKF-4"
+        },
+        {
+          "frage": "Wie relevant ist Funktion auf mobilen Geräten?",
+          "schluessel": "PKF-5"
+        },
+        {
+          "frage": "Wie relevant ist die Möglichkeit das Framework zu erweitern?",
+          "schluessel": "PKF-6"
+        },
+        {
+          "frage": "Wie relevant ist die Möglichkeit der nativen Entwicklung?",
+          "schluessel": "PKF-7"
+        }
+      ]
+    },
+    {
+      "name": "Popularität und verfügbares Know-How",
+      "beschreibung": "Die Popularität eines Frameworks hat Einfluss auf die Größe der dazugehörigen Community. Aus einer großen Community kann ein Anwender Nutzen ziehen, indem erfahrene Entwickler Hilfestellungen auf Plattformen wie StackOverflow geben. Außerdem profitiert das Framework von einer schnelleren Fehlersuche und Fehlerbehebung auf GitHub.",
+      "leitfragen": [
+        {
+          "frage": "Wie relevant ist der Bekanntheitsgrad des Frameworks anhand Google Trends?",
+          "schluessel": "PKHF-1"
+        },
+        {
+          "frage": "Wie relevant ist das Ranking der Frameworks bei HotFrameworks?",
+          "schluessel": "PKHF-2"
+        },
+        {
+          "frage": "Wie relevant sind die aktuellen Statistiken auf GitHub?",
+          "schluessel": "PKHF-3"
+        },
+        {
+          "frage": "Wie relevant sind die Statistiken auf StackOverflow?",
+          "schluessel": "PKHF-4"
+        },
+        {
+          "frage": "Wie relevant ist die Anzahl von Stellenangeboten?",
+          "schluessel": "PKHF-7"
+        },
+        {
+          "frage": "Wie relevant ist eine breite Community von Nutzern für Support, Dokumentation und Code?",
+          "schluessel": "PKHF-8"
+        },
+        {
+          "frage": "Wie relevant ist die Menge an Bibliotheken und Anwendungen welche mit dem Framework entwickelt sind?",
+          "schluessel": "PKHF-9"
+        }
+      ]
+    },
+    {
+      "name": "Einfachheit und Benutzerfreundlichkeit",
+      "beschreibung": "Die Einfachheit und Benutzerfreundlichkeit eines Frameworks ist für die Entwicklung einer Anwendung entscheidend. Mithilfe von automatischen Codeerzeugungen und Dokumentationen können unnötige Komplexitäten in einem Projekt verhindert werden. Durch standardisierte Abläufe können im späteren Verlauf neue Entwickler sich effizient in das Projekt einarbeiten.",
+      "leitfragen": [
+        {
+          "frage": "Wie relevant ist eine bereitgestellte Dokumentation?",
+          "schluessel": "EBF-1"
+        },
+        {
+          "frage": "Wie relevant ist die Unterstützung von automatischer Erzeugung von Code?",
+          "schluessel": "EBF-2"
+        },
+        {
+          "frage": "Wie relevant ist die Unterstützung des Frameworks von gängigen IDEs?",
+          "schluessel": "EBF-3"
+        },
+        {
+          "frage": "Wie relevant ist die Einarbeitungsdauer eines außenstehenden Entwicklers?",
+          "schluessel": "EBF-4"
+        },
+        {
+          "frage": "Wie relevant sind Guidelines/Best Practices für typische Use-Cases?",
+          "schluessel": "EBF-5"
+        },
+        {
+          "frage": "Wie relevant ist eine Unterstützung von dynamischen oder statischen Typisieren?",
+          "schluessel": "EBF-6"
+        },
+        {
+          "frage": "Wie relevant ist die Unterstützung von verschiedenen Entwicklungsumgebungen?",
+          "schluessel": "EBF-7"
+        },
+        {
+          "frage": "Wie relevant sind fertige Buildtools?",
+          "schluessel": "EBF-8"
+        }
+      ]
+    },
+    {
+      "name": "Eignung zur Umsetzung von Lean- und Fat-SPAs",
+      "beschreibung": "Eine SPA kann für ein sehr kleines sowie für ein sehr großes Projekt umgesetzt werden. Die Frameworks können beide Fälle abdecken, allerdings bietet sich für ein kleines Projekt ein leichtgewichtiges Framework an. Im umgekehrten Fall lohnt sich die Nutzung eines schwergewichtigen Frameworks.",
+      "leitfragen": [
+        {
+          "frage": "Wie relevant ist die Leichtgewichtigkeit des Frameworks?",
+          "schluessel": "LFF-1"
+        },
+        {
+          "frage": "Wie relevant ist die Performance des Frameworks bei großen Anwendungen?",
+          "schluessel": "LFF-2"
+        },
+        {
+          "frage": "Wie relevant ist der Anstieg der Komplexität durch notwendige Komponenten?",
+          "schluessel": "LFF-3"
+        },
+        {
+          "frage": "Wie relevant ist die Integration von notwendigen Komponenten in dem Framework?",
+          "schluessel": "LFF-4"
+        }
+      ]
+    }
+  ]
+}

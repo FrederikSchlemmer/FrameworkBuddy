@@ -1,0 +1,51 @@
+<div style="min-height: 50em;">
+<div *ngIf="!contentLoaded" fxLayout="column" fxLayoutAlign="space-around center" class="mat-typography" style="margin-top: 20em">
+  <mat-spinner></mat-spinner>
+    <h2 class="mat-h2" style="margin-top: 2em"> Einen Moment bitte. Die aktuellen Fragen werden geladen...</h2>
+</div>
+
+<div *ngIf="contentLoaded">
+  <span fxLayout="column" fxLayoutAlign="space-around center" class="mat-typography">
+    <mat-icon svgIcon="survey"></mat-icon>
+    <h2 class="mat-h2"> Herzlich Willkommen auf dem Weg zum passenden Framework!</h2>
+    <h4 fxLayoutAlign="space-around center" class="mat-h4"> Bitte füllen Sie die aufgeführten Kategorie mit den
+      dazugehörigen Fragestellungen vollständig aus. Im letzten Schritt wird dann anhand Ihrer Daten das Ergebnis
+      generiert!</h4>
+  </span>
+
+
+  <mat-vertical-stepper #stepper>
+    <!--Generation of the different topics in each step-->
+    <div *ngFor="let themengebiet of formContent.themengebiete; first as isFirst">
+      <mat-step>
+        <ng-template matStepLabel>{{themengebiet.name}}</ng-template>
+        <div fxLayout="column" fxLayoutAlign="space-around center" class="mat-typography" style="padding-bottom: 2em">
+            {{themengebiet.beschreibung}}
+        </div>
+        <!--Generation of the different questions in each topic-->
+        <app-form-element [formQuestions]="themengebiet.leitfragen" [firstStep]="isFirst"></app-form-element>
+      </mat-step>
+    </div>
+    <!--Final Step before linking to Result-Page-->
+    <mat-step>
+      <ng-template matStepLabel>Ergebnis</ng-template>
+      <div *ngIf="isFormValid()" fxLayout="column" fxLayoutAlign="center center" class="mat-typography">
+        <mat-icon svgIcon="like"></mat-icon>
+        <h1 class="mat-h1" style="margin-top: 2em">Herzlichen Glückwunsch!</h1>
+        <h2 class="mat-h2">Wie es scheint hast du den kompletten Fragebogen geschafft und kannst dir nun dein Ergebnis generieren lassen!</h2>
+        <button mat-button color="primary" routerLink="/result">Zum Ergebnis!</button>
+      </div>
+      <div *ngIf="!isFormValid()" fxLayout="column" fxLayoutAlign="center center" class="mat-typography">
+          <mat-icon svgIcon="error"></mat-icon>
+          <h1 class="mat-h1" style="margin-top: 2em">Es scheint als hättest du wohl ein paar Fragen ausgelassen!</h1>
+          <h2 class="mat-h2">Für ein aussagekräftiges Ergebnis ist es wichtig, dass der gesamte Fragebogen ausgefüllt wird.</h2>
+          <h2 class="mat-h2" style="margin-top: -1em">Falls manche Fragen dir für dein Projekt nicht relevant vorkommen, dann wähle "Kein entscheidenes Kriterium".</h2>
+        </div>
+      <div fxLayout="row" fxLayoutAlign="center center" style="margin-top: 2em">
+        <button mat-button color="warn" matStepperPrevious>Back</button>
+        <button mat-button color="warn" (click)="stepper.reset()">Go back to first Step</button>
+      </div>
+    </mat-step>
+  </mat-vertical-stepper>
+</div>
+</div>

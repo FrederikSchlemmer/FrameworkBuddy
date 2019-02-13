@@ -1,0 +1,26 @@
+<form [formGroup]="stepFormGroup">
+  <div fxLayout="column" fxLayoutAlign="space-between" *ngFor="let formQuestion of formQuestions; index as i; last as isLast; first as isFirst ">
+      <mat-accordion class="example-headers-align">
+          <mat-expansion-panel [expanded]="step === i" (opened)="setStep(i)" hideToggle>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  {{formQuestion.frage}}
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+          
+              <mat-radio-group fxLayout="row" fxLayoutAlign="space-between" formControlName={{formQuestion.schluessel}}>
+                  <mat-radio-button value="1">Wichtiges Kriterium</mat-radio-button>
+                  <mat-radio-button value="0">Kein entscheidenes Kriterium</mat-radio-button>
+                  <mat-radio-button value="-1">Unwichtiges Kriterium</mat-radio-button>
+                </mat-radio-group>
+
+              <mat-action-row>
+                  <button *ngIf="!firstStep" color="warn" mat-button matStepperPrevious>Previous Step</button>
+                  <button *ngIf="!isFirst" mat-button color="warn" (click)="prevStep()">Previous Question</button>
+                  <button *ngIf="!isLast"mat-button color="primary" (click)="nextStep()">Next</button>
+                  <button *ngIf="isLast" mat-button color="primary" matStepperNext>Next Step</button>                  
+              </mat-action-row>
+            </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+</form>
