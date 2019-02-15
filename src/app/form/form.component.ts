@@ -43,8 +43,7 @@ export class FormComponent implements OnInit {
   }
 
   isFormValid() {
-    
-    if(Object.keys(this.formService.mainForm.controls).length){
+    if(Object.keys(this.formService.mainForm.controls).length != 0){
       return this.formService.mainForm.valid;
     } else {
       return false;

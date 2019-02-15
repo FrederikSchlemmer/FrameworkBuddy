@@ -8,7 +8,7 @@
     <div *ngIf="calculatedResult !== undefined">
       <h1 class="mat-h1" style="margin-bottom: 4em; text-align: center"> Das ist der Ratschlag von deinem Framework
         Buddy:</h1>
-      <div *ngIf="calculatedResult.angular > 0 || calculatedResult.react > 0 || calculatedResult.vue > 0">
+      <div *ngIf="calculatedResult.angular >= 0 || calculatedResult.react >= 0 || calculatedResult.vue >= 0">
         <div *ngIf="calculatedResult.angular > calculatedResult.react && calculatedResult.angular > calculatedResult.vue">
           <mat-icon svgIcon="angular"></mat-icon>
           <h1 class="mat-h1" style="font-size: 5em; text-align: center"> Angular</h1>

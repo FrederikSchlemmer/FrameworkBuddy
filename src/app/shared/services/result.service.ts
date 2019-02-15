@@ -46,7 +46,7 @@ export class ResultService {
 
       let questionScore: number = (praxisRelevanz * bewertung.bewertung);
       let score: number;
-      if(questionScore > 0) {
+      if(currentValue != -1) {
         score = currentValue * questionScore;
       } else {
         score = questionScore;
